@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Regression1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 16 22:32:51 PST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176918 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.SignUpPageTest.SignUp()'><b>SignUp</b><br>Test class: testCases.SignUpPageTest<br>Parameters: Abdul Sami, Khan, sami10, sami123</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.SignUp()'><b>SignUp</b><br>Test class: testCases.SignUpPageTest<br>Parameters: Hafeez, Khan, hafeez10, hafeez123</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.SignUp()'><b>SignUp</b><br>Test class: testCases.SignUpPageTest<br>Parameters: Samad, Khan, samad10, samad123</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.SignUp()'><b>SignUp</b><br>Test class: testCases.SignUpPageTest<br>Parameters: Aqib, Khan, aqib10, aqib123</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.SignUp()'><b>SignUp</b><br>Test class: testCases.SignUpPageTest<br>Parameters: Zulkurnain, Khan, zulkurnain10, zulkurnain123</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.MessagePageTest.clickMessageIcon()'><b>clickMessageIcon</b><br>Test class: testCases.MessagePageTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.MessagePageTest@46d56d67</td></tr>
+<tr>
+<td title='testCases.loginPageTest.linkedInLogoTest()'><b>linkedInLogoTest</b><br>Test class: testCases.loginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.loginPageTest@d8355a8</td></tr>
+<tr>
+<td title='testCases.loginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: testCases.loginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.loginPageTest@d8355a8</td></tr>
+<tr>
+<td title='testCases.loginPageTest.loginTest()'><b>loginTest</b><br>Test class: testCases.loginPageTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.loginPageTest@d8355a8</td></tr>
+<tr>
+<td title='testCases.HomePageTest.messagePageLogin()'><b>messagePageLogin</b><br>Test class: testCases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.HomePageTest@29ee9faa</td></tr>
+<tr>
+<td title='testCases.MessagePageTest.searchUsername()'><b>searchUsername</b><br>Test class: testCases.MessagePageTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.MessagePageTest@46d56d67</td></tr>
+<tr>
+<td title='testCases.MessagePageTest.selectUser()'><b>selectUser</b><br>Test class: testCases.MessagePageTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.MessagePageTest@46d56d67</td></tr>
+<tr>
+<td title='testCases.MessagePageTest.sendMessage()'><b>sendMessage</b><br>Test class: testCases.MessagePageTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.MessagePageTest@46d56d67</td></tr>
+<tr>
+<td title='testCases.MessagePageTest.typeMessage()'><b>typeMessage</b><br>Test class: testCases.MessagePageTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.MessagePageTest@46d56d67</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.validateLogo()'><b>validateLogo</b><br>Test class: testCases.SignUpPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+<tr>
+<td title='testCases.HomePageTest.verfiyUserName()'><b>verfiyUserName</b><br>Test class: testCases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.HomePageTest@29ee9faa</td></tr>
+<tr>
+<td title='testCases.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: testCases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.HomePageTest@29ee9faa</td></tr>
+<tr>
+<td title='testCases.SignUpPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: testCases.SignUpPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpPageTest@59fa1d9b</td></tr>
+</table><p>
+</body>
+</html>

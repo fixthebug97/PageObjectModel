@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44948" started-at="2018-12-21T07:53:03Z" finished-at="2018-12-21T07:53:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44948" started-at="2018-12-21T07:53:03Z" finished-at="2018-12-21T07:53:48Z">
+      <class name="testCases.SignUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="5381" started-at="2018-12-20T23:53:03Z" finished-at="2018-12-20T23:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyTitle()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="verifyTitle" duration-ms="45" started-at="2018-12-20T23:53:08Z" finished-at="2018-12-20T23:53:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [LinkedI: Log In or Sign Up] but found [LinkedIn: Log In or Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [LinkedI: Log In or Sign Up] but found [LinkedIn: Log In or Sign Up]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at testCases.SignUpPageTest.verifyTitle(SignUpPageTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="836" started-at="2018-12-20T23:53:08Z" finished-at="2018-12-20T23:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4902" started-at="2018-12-20T23:53:09Z" finished-at="2018-12-20T23:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLogo()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="validateLogo" duration-ms="71" started-at="2018-12-20T23:53:14Z" finished-at="2018-12-20T23:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="793" started-at="2018-12-20T23:53:14Z" finished-at="2018-12-20T23:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4999" started-at="2018-12-20T23:53:16Z" finished-at="2018-12-20T23:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="SignUp" duration-ms="699" started-at="2018-12-20T23:53:21Z" data-provider="gettestdata" finished-at="2018-12-20T23:53:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abdul Sami]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sami10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sami123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="826" started-at="2018-12-20T23:53:22Z" finished-at="2018-12-20T23:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4904" started-at="2018-12-20T23:53:23Z" finished-at="2018-12-20T23:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="SignUp" duration-ms="1061" started-at="2018-12-20T23:53:28Z" data-provider="gettestdata" finished-at="2018-12-20T23:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hafeez]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hafeez10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hafeez123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="795" started-at="2018-12-20T23:53:29Z" finished-at="2018-12-20T23:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4729" started-at="2018-12-20T23:53:29Z" finished-at="2018-12-20T23:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="SignUp" duration-ms="473" started-at="2018-12-20T23:53:34Z" data-provider="gettestdata" finished-at="2018-12-20T23:53:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[samad10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[samad123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="746" started-at="2018-12-20T23:53:35Z" finished-at="2018-12-20T23:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4923" started-at="2018-12-20T23:53:35Z" finished-at="2018-12-20T23:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="SignUp" duration-ms="533" started-at="2018-12-20T23:53:40Z" data-provider="gettestdata" finished-at="2018-12-20T23:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aqib]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aqib10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aqib123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="872" started-at="2018-12-20T23:53:41Z" finished-at="2018-12-20T23:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="setUp" is-config="true" duration-ms="4671" started-at="2018-12-20T23:53:42Z" finished-at="2018-12-20T23:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="SignUp" duration-ms="390" started-at="2018-12-20T23:53:46Z" data-provider="gettestdata" finished-at="2018-12-20T23:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zulkurnain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zulkurnain10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zulkurnain123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="835" started-at="2018-12-20T23:53:47Z" finished-at="2018-12-20T23:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SignUpPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
