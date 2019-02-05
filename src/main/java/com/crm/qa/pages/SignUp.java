@@ -43,22 +43,21 @@ public class SignUp extends Testbase {
 	
 	public String verifyTitle() {
 		
-		return driver.getTitle();
+		return getTitle();
 	}
 	
 	public boolean verifyLogo() {
 		
-		return logo.isDisplayed();
+		return isDisplayed(logo);
 	}
 	
 	public void requireFields(String name,String lastname, String email, String password) {
 		
-		firstName.sendKeys(name);
-		lastName.sendKeys(lastname);
-		Email.sendKeys(email);
-		Password.sendKeys(password);
+		get_the_xpath(firstName, name);
+		get_the_xpath(lastName, lastname);
+		get_the_xpath(Email, email);
+		get_the_xpath(Password, password);
 		
-	
 		
 	}
 }

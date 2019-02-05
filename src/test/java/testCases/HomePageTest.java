@@ -54,6 +54,6 @@ messagePage messagePage;
 	@AfterMethod
 	public void tearDown() {
 		
-		driver.quit();
+		quit();
 	}
 }

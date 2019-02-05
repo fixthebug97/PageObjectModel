@@ -23,17 +23,17 @@ public class homePage extends Testbase {
 	
 	public String verifyHomePageTitle() {
 		
-		return driver.getTitle();
+		return getTitle();
 	}
 	
 	public boolean verifyUserName() {
 		
-		return userNameLabel.isDisplayed();
+		return isDisplayed(userNameLabel);
 	}
 	
 	public messagePage messageClick() {
 		
-		messageLink.click();
+		get_the_xpath(messageLink);
 		
 		return new messagePage();
 		

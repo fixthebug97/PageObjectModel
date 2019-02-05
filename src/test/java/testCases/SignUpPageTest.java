@@ -33,7 +33,7 @@ SignUp signUp;
 	@Test(priority=1)
 	public void verifyTitle() {
 	String title=signUp.verifyTitle();
-	Assert.assertEquals(title, "LinkedI: Log In or Sign Up");
+	Assert.assertEquals(title, "LinkedIn: Log In or Sign Up");
 		
 	}
 	
@@ -62,7 +62,7 @@ SignUp signUp;
 	@AfterMethod
 	public void tearDown() {
 		
-		driver.quit();
+		quit();
 	}
 	
 }

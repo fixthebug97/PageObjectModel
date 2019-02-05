@@ -30,27 +30,27 @@ public class messagePage extends Testbase {
 
 	public void createMessage() {
 		
-		messageIcon.click();
+		get_the_xpath(messageIcon);
 	}
 	
 	public void searchUsers(String user) {
 		
-		searchUser.sendKeys(user);
+		get_the_xpath(searchUser, user);
 		
 	}
 	
 	public void selectUsers() {
 		
-		selectUser.click();
+		get_the_xpath(selectUser);
 	}
 	
 	public void typemessages(String text) {
-		typeMessage.sendKeys(text);
+		get_the_xpath(typeMessage, text);
 		
 	}
 	
 	public void sendMessage() {
-		sendMessage.click();
+		get_the_xpath(sendMessage);
 		
 	}
 	

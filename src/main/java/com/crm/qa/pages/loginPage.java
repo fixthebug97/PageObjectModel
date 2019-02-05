@@ -32,20 +32,21 @@ public class loginPage extends Testbase {
 	
 	public String validateLoginPageTitle() {
 		
-		return driver.getTitle();
+		return getTitle();
 		
 	}
 	
 	public boolean validateImage() {
 		
-		return image.isDisplayed();
+		return isDisplayed(image);
 	}
 	
 	public homePage login(String uname, String pass) {
 		
-		username.sendKeys(uname);
-		password.sendKeys(pass);
-		loginButton.click();
+		get_the_xpath(username, uname);
+		get_the_xpath(password, pass);
+		get_the_xpath(loginButton);
+		
 		
 		return new homePage();
 	}

@@ -3,25 +3,31 @@
 <suite name="Failed suite [Suite1]">
   <test name="Regression1(failed)">
     <classes>
-      <class name="testcases.MessagePageTest">
+      <class name="testCases.SignUpPageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyTitle"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.MessagePageTest -->
-      <class name="testcases.HomePageTest">
+      </class> <!-- testCases.SignUpPageTest -->
+      <class name="testCases.loginPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.HomePageTest -->
-      <class name="testcases.loginPageTest">
+      </class> <!-- testCases.loginPageTest -->
+      <class name="testCases.MessagePageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.loginPageTest -->
+      </class> <!-- testCases.MessagePageTest -->
+      <class name="testCases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.HomePageTest -->
     </classes>
   </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

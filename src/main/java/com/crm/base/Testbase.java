@@ -9,6 +9,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
@@ -83,6 +84,28 @@ public class Testbase {
 		
 	}
 	
+public void get_the_xpath(WebElement element) {
+	
+	element.click();
+}
 
+public void get_the_xpath(WebElement element,String text) {
+	
+	element.sendKeys(text);
+}
 
+public String getTitle() {
+	
+	return driver.getTitle();
+}
+
+public boolean isDisplayed(WebElement element) {
+	
+	return element.isDisplayed();
+}
+
+public void quit() {
+	
+	driver.quit();
+}
 }

@@ -6,7 +6,7 @@
  
   <test name="Regression1">
     <classes>
-    	<class name="testCases.SignUpPageTest"></class>
+    <class name="testCases.SignUpPageTest"></class>
       <class name="testCases.loginPageTest"/>
       <class name="testCases.HomePageTest"/>
       <class name="testCases.MessagePageTest"/>

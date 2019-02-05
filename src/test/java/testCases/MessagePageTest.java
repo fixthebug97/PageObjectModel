@@ -61,7 +61,7 @@ public class MessagePageTest extends Testbase{
 	@AfterMethod
 	public void tearDown() {
 		
-		driver.quit();
+		quit();
 	}
 	
 	
