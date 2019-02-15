@@ -1,345 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="18" passed="18">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="181675" started-at="2019-02-02T23:10:47Z" finished-at="2019-02-02T23:13:49Z">
+  <suite name="Default suite" duration-ms="68016" started-at="2019-02-15T23:12:10Z" finished-at="2019-02-15T23:13:18Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="181675" started-at="2019-02-02T23:10:47Z" finished-at="2019-02-02T23:13:49Z">
+    <test name="Default test" duration-ms="68016" started-at="2019-02-15T23:12:10Z" finished-at="2019-02-15T23:13:18Z">
       <class name="testCases.MessagePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="setUp" is-config="true" duration-ms="10210" started-at="2019-02-02T15:12:37Z" finished-at="2019-02-02T15:12:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="setUp" is-config="true" duration-ms="11355" started-at="2019-02-15T15:12:10Z" finished-at="2019-02-15T15:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickMessageIcon()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="clickMessageIcon" duration-ms="2309" started-at="2019-02-02T15:12:47Z" finished-at="2019-02-02T15:12:50Z">
+        <test-method status="PASS" signature="clickMessageIcon()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="clickMessageIcon" duration-ms="949" started-at="2019-02-15T15:12:22Z" finished-at="2019-02-15T15:12:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickMessageIcon -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="tearDown" is-config="true" duration-ms="714" started-at="2019-02-02T15:12:50Z" finished-at="2019-02-02T15:12:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="tearDown" is-config="true" duration-ms="802" started-at="2019-02-15T15:12:23Z" finished-at="2019-02-15T15:12:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="setUp" is-config="true" duration-ms="10949" started-at="2019-02-02T15:12:50Z" finished-at="2019-02-02T15:13:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="setUp" is-config="true" duration-ms="15199" started-at="2019-02-15T15:12:23Z" finished-at="2019-02-15T15:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchUsername()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="searchUsername" duration-ms="2640" started-at="2019-02-02T15:13:01Z" finished-at="2019-02-02T15:13:04Z">
+        <test-method status="PASS" signature="searchUsername()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="searchUsername" duration-ms="1382" started-at="2019-02-15T15:12:39Z" finished-at="2019-02-15T15:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUsername -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-02-02T15:13:04Z" finished-at="2019-02-02T15:13:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="tearDown" is-config="true" duration-ms="738" started-at="2019-02-15T15:12:40Z" finished-at="2019-02-15T15:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="setUp" is-config="true" duration-ms="9761" started-at="2019-02-02T15:13:05Z" finished-at="2019-02-02T15:13:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="setUp" is-config="true" duration-ms="9619" started-at="2019-02-15T15:12:41Z" finished-at="2019-02-15T15:12:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectUser()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="selectUser" duration-ms="3630" started-at="2019-02-02T15:13:14Z" finished-at="2019-02-02T15:13:18Z">
+        <test-method status="PASS" signature="selectUser()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="selectUser" duration-ms="1776" started-at="2019-02-15T15:12:50Z" finished-at="2019-02-15T15:12:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="tearDown" is-config="true" duration-ms="717" started-at="2019-02-02T15:13:18Z" finished-at="2019-02-02T15:13:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="tearDown" is-config="true" duration-ms="695" started-at="2019-02-15T15:12:52Z" finished-at="2019-02-15T15:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="setUp" is-config="true" duration-ms="10936" started-at="2019-02-02T15:13:19Z" finished-at="2019-02-02T15:13:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="setUp" is-config="true" duration-ms="10290" started-at="2019-02-15T15:12:53Z" finished-at="2019-02-15T15:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeMessage()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="typeMessage" duration-ms="3922" started-at="2019-02-02T15:13:30Z" finished-at="2019-02-02T15:13:34Z">
+        <test-method status="PASS" signature="typeMessage()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="typeMessage" duration-ms="1807" started-at="2019-02-15T15:13:03Z" finished-at="2019-02-15T15:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- typeMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="tearDown" is-config="true" duration-ms="705" started-at="2019-02-02T15:13:34Z" finished-at="2019-02-02T15:13:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="tearDown" is-config="true" duration-ms="704" started-at="2019-02-15T15:13:05Z" finished-at="2019-02-15T15:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="setUp" is-config="true" duration-ms="9986" started-at="2019-02-02T15:13:34Z" finished-at="2019-02-02T15:13:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="setUp" is-config="true" duration-ms="9934" started-at="2019-02-15T15:13:06Z" finished-at="2019-02-15T15:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sendMessage()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="sendMessage" duration-ms="4110" started-at="2019-02-02T15:13:44Z" finished-at="2019-02-02T15:13:48Z">
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="sendMessage" duration-ms="2055" started-at="2019-02-15T15:13:16Z" finished-at="2019-02-15T15:13:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@7be7e15]" name="tearDown" is-config="true" duration-ms="796" started-at="2019-02-02T15:13:48Z" finished-at="2019-02-02T15:13:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.MessagePageTest@482f8f11]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-02-15T15:13:18Z" finished-at="2019-02-15T15:13:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.MessagePageTest -->
-      <class name="testCases.loginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="setUp" is-config="true" duration-ms="5294" started-at="2019-02-02T15:11:39Z" finished-at="2019-02-02T15:11:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="loginPageTitleTest" duration-ms="33" started-at="2019-02-02T15:11:45Z" finished-at="2019-02-02T15:11:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="tearDown" is-config="true" duration-ms="727" started-at="2019-02-02T15:11:45Z" finished-at="2019-02-02T15:11:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="setUp" is-config="true" duration-ms="5293" started-at="2019-02-02T15:11:46Z" finished-at="2019-02-02T15:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="linkedInLogoTest()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="linkedInLogoTest" duration-ms="44" started-at="2019-02-02T15:11:51Z" finished-at="2019-02-02T15:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkedInLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="tearDown" is-config="true" duration-ms="675" started-at="2019-02-02T15:11:51Z" finished-at="2019-02-02T15:11:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="setUp" is-config="true" duration-ms="5159" started-at="2019-02-02T15:11:52Z" finished-at="2019-02-02T15:11:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="loginTest" duration-ms="5333" started-at="2019-02-02T15:11:57Z" finished-at="2019-02-02T15:12:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.loginPageTest@c6da8bb]" name="tearDown" is-config="true" duration-ms="659" started-at="2019-02-02T15:12:02Z" finished-at="2019-02-02T15:12:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.loginPageTest -->
-      <class name="testCases.SignUpPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="7018" started-at="2019-02-02T15:10:48Z" finished-at="2019-02-02T15:10:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="verifyTitle" duration-ms="56" started-at="2019-02-02T15:10:55Z" finished-at="2019-02-02T15:10:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="875" started-at="2019-02-02T15:10:55Z" finished-at="2019-02-02T15:10:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="7225" started-at="2019-02-02T15:10:55Z" finished-at="2019-02-02T15:11:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLogo()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="validateLogo" duration-ms="47" started-at="2019-02-02T15:11:03Z" finished-at="2019-02-02T15:11:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="645" started-at="2019-02-02T15:11:03Z" finished-at="2019-02-02T15:11:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="4921" started-at="2019-02-02T15:11:06Z" finished-at="2019-02-02T15:11:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="SignUp" duration-ms="580" started-at="2019-02-02T15:11:11Z" data-provider="gettestdata" finished-at="2019-02-02T15:11:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Abdul Sami]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sami10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sami123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="691" started-at="2019-02-02T15:11:11Z" finished-at="2019-02-02T15:11:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="5411" started-at="2019-02-02T15:11:12Z" finished-at="2019-02-02T15:11:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="SignUp" duration-ms="527" started-at="2019-02-02T15:11:17Z" data-provider="gettestdata" finished-at="2019-02-02T15:11:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hafeez]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[hafeez10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[hafeez123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="656" started-at="2019-02-02T15:11:18Z" finished-at="2019-02-02T15:11:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="8059" started-at="2019-02-02T15:11:18Z" finished-at="2019-02-02T15:11:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="SignUp" duration-ms="341" started-at="2019-02-02T15:11:27Z" data-provider="gettestdata" finished-at="2019-02-02T15:11:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[samad10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[samad123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="648" started-at="2019-02-02T15:11:27Z" finished-at="2019-02-02T15:11:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="4735" started-at="2019-02-02T15:11:28Z" finished-at="2019-02-02T15:11:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="SignUp" duration-ms="383" started-at="2019-02-02T15:11:32Z" data-provider="gettestdata" finished-at="2019-02-02T15:11:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aqib]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[aqib10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[aqib123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="656" started-at="2019-02-02T15:11:33Z" finished-at="2019-02-02T15:11:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="setUp" is-config="true" duration-ms="4870" started-at="2019-02-02T15:11:33Z" finished-at="2019-02-02T15:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="SignUp" duration-ms="643" started-at="2019-02-02T15:11:38Z" data-provider="gettestdata" finished-at="2019-02-02T15:11:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Zulkurnain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[zulkurnain10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[zulkurnain123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SignUpPageTest@3abfe845]" name="tearDown" is-config="true" duration-ms="644" started-at="2019-02-02T15:11:39Z" finished-at="2019-02-02T15:11:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.SignUpPageTest -->
-      <class name="testCases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="setUp" is-config="true" duration-ms="9838" started-at="2019-02-02T15:12:03Z" finished-at="2019-02-02T15:12:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="verifyHomePageTitle" duration-ms="24" started-at="2019-02-02T15:12:13Z" finished-at="2019-02-02T15:12:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="tearDown" is-config="true" duration-ms="657" started-at="2019-02-02T15:12:13Z" finished-at="2019-02-02T15:12:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="setUp" is-config="true" duration-ms="10870" started-at="2019-02-02T15:12:13Z" finished-at="2019-02-02T15:12:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verfiyUserName()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="verfiyUserName" duration-ms="60" started-at="2019-02-02T15:12:24Z" finished-at="2019-02-02T15:12:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verfiyUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="tearDown" is-config="true" duration-ms="659" started-at="2019-02-02T15:12:24Z" finished-at="2019-02-02T15:12:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="setUp" is-config="true" duration-ms="11396" started-at="2019-02-02T15:12:25Z" finished-at="2019-02-02T15:12:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="messagePageLogin()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="messagePageLogin" duration-ms="189" started-at="2019-02-02T15:12:36Z" finished-at="2019-02-02T15:12:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- messagePageLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePageTest@129bd55d]" name="tearDown" is-config="true" duration-ms="687" started-at="2019-02-02T15:12:36Z" finished-at="2019-02-02T15:12:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.HomePageTest -->
-    </test> <!-- Regression1 -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,31 +3,33 @@
 <suite name="Failed suite [Suite1]">
   <test name="Regression1(failed)">
     <classes>
-      <class name="testCases.SignUpPageTest">
-        <methods>
-          <include name="verifyTitle"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.SignUpPageTest -->
-      <class name="testCases.loginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.loginPageTest -->
-      <class name="testCases.MessagePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.MessagePageTest -->
       <class name="testCases.HomePageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.HomePageTest -->
+      <class name="testCases.SignUpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.SignUpPageTest -->
+      <class name="testCases.MessagePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectUser"/>
+          <include name="sendMessage"/>
+          <include name="setUp"/>
+          <include name="typeMessage"/>
+        </methods>
+      </class> <!-- testCases.MessagePageTest -->
+      <class name="testCases.loginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.loginPageTest -->
     </classes>
   </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

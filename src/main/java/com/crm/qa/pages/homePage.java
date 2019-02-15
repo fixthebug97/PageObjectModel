@@ -33,7 +33,7 @@ public class homePage extends Testbase {
 	
 	public messagePage messageClick() {
 		
-		get_the_xpath(messageLink);
+		onClick(driver, messageLink, 10);
 		
 		return new messagePage();
 		

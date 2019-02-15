@@ -45,7 +45,7 @@ public class loginPage extends Testbase {
 		
 		get_the_xpath(username, uname);
 		get_the_xpath(password, pass);
-		get_the_xpath(loginButton);
+		onClick(driver,loginButton,10);
 		
 		
 		return new homePage();

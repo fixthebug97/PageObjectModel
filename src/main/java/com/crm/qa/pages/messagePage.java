@@ -14,7 +14,7 @@ public class messagePage extends Testbase {
 	@FindBy(xpath="//input[@placeholder='Type a name or multiple names…']")
 	WebElement searchUser;
 	
-	@FindBy(xpath="//button[@data-control-name='add_recipient']")
+	@FindBy(xpath="//button[@data-control-name='search_add']")
 	WebElement selectUser;
 	
 	@FindBy(xpath="//div[@role='textbox']")
@@ -30,7 +30,7 @@ public class messagePage extends Testbase {
 
 	public void createMessage() {
 		
-		get_the_xpath(messageIcon);
+		onClick(driver,messageIcon,10);
 	}
 	
 	public void searchUsers(String user) {
@@ -41,7 +41,7 @@ public class messagePage extends Testbase {
 	
 	public void selectUsers() {
 		
-		get_the_xpath(selectUser);
+		onClick(driver,selectUser,10);
 	}
 	
 	public void typemessages(String text) {
@@ -50,7 +50,7 @@ public class messagePage extends Testbase {
 	}
 	
 	public void sendMessage() {
-		get_the_xpath(sendMessage);
+		onClick(driver,sendMessage,10);
 		
 	}
 	

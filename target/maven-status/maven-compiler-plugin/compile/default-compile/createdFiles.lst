@@ -1,6 +1,0 @@
-com\crm\qa\pages\messagePage.class
-com\crm\qa\pages\homePage.class
-com\crm\qa\pages\loginPage.class
-com\crm\qa\pages\SignUp.class
-com\crm\utils\XLS_Reader.class
-com\crm\base\Testbase.class
